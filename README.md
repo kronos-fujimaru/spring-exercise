@@ -12,7 +12,6 @@ Eclipse上で Spring Starterプロジェクト「spring-exercise」を作成し�
 <img src="img/00_01.png" alt="Spring Initializr">
 
 <br><br>
-
 <hr>
 
 ### 演習1
