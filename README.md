@@ -324,6 +324,48 @@ List<Employee> employees = Arrays.asList(new Employee(101, "Bob", "Male", 45),
 
 次の実行結果となるように以下のプログラムを作成してください。
 
+- LoggingAspectクラス（パッケージ：com.example.springexercise.aspect）
+
+#### 実行結果
+
+AOPを活用し、com.example.springexercise.controllerパッケージ配下の全クラスのメソッド実行時に、コンソールにログを出力します。出力内容は対象メソッドのパッケージ名、クラス名、メソッド名とします。
+
+（出力例）
+
+```
+start:String com.example.springexercise.controller.ExRestController.ex4(String)
+```
+
+<br><br>
+
+<hr>
+
+### 演習11
+
+次の実行結果となるように以下のプログラムを作成してください。
+
+- LoggingAspectクラス（パッケージ：com.example.springexercise.aspect）
+
+#### 実行結果
+
+AOPを活用し、com.example.springexercise.controllerパッケージ配下の全クラスで、引数が1つ以上あるメソッドの実行時に、コンソールにログを出力します。出力内容は対象メソッドのパッケージ名、クラス名、メソッド名とします。
+
+（出力例）
+
+```
+start:String com.example.springexercise.controller.ExRestController.ex4(String)
+```
+
+> 引数が1つもないメソッドが実行された時は、ログ出力はしません。
+
+<br><br>
+
+<hr>
+
+### 演習12
+
+次の実行結果となるように以下のプログラムを作成してください。
+
 - BookControllerクラス（パッケージ：com.example.springexercise.controller）
     - 書籍検索画面（index.html）に遷移します。
     - 書籍検索画面の入力情報（価格）をBookFormで受け取り、Serviceクラスの検索メソッドを呼び出します。
@@ -345,21 +387,21 @@ List<Employee> employees = Arrays.asList(new Employee(101, "Bob", "Male", 45),
 
 http://localhost:8080/books
 
-<img src="img/10_01.png" alt="実行結果" width="600">
+<img src="img/12_01.png" alt="実行結果" width="600">
 
 価格テキストボックスに入力した値で書籍情報（リスト）を検索し、ヒットした書籍の情報を書籍検索画面（index.html）の下部に表示します。
 
-<img src="img/10_02.png" alt="実行結果" width="600">
+<img src="img/12_02.png" alt="実行結果" width="600">
 
 <br><br>
 
 <hr>
 
-### 演習11
+### 演習13
 
 演習10で検索結果が1件もない場合、その旨のメッセージを表示します。
 
-<img src="img/11_01.png" alt="実行結果" width="600">
+<img src="img/13_01.png" alt="実行結果" width="600">
 
 <br>
 
@@ -403,7 +445,7 @@ public class Book {
 
 <hr>
 
-### 演習12
+### 演習14
 
 次の実行結果となるように以下のプログラムを作成してください。
 
@@ -435,19 +477,19 @@ public class Book {
 
 http://localhost:8080/login
 
-<img src="img/12_01.png" alt="実行結果" width="600">
+<img src="img/14_01.png" alt="実行結果" width="600">
 
 入力されたログインIDとパスワードに一致する情報がユーザ情報（リスト）にある場合、メニュー画面に遷移します。ログインしたユーザのユーザ名を表示します。
 
-<img src="img/12_02.png" alt="実行結果" width="600">
+<img src="img/14_02.png" alt="実行結果" width="600">
 
 入力されたログインIDとパスワードに一致する情報がユーザ情報（リスト）にない場合、ログイン画面に遷移し、エラーメッセージを表示します。
 
-<img src="img/12_03.png" alt="実行結果" width="600">
+<img src="img/14_03.png" alt="実行結果" width="600">
 
 ログインID、パスワードが未入力の場合、それぞれのエラーメッセージを表示します。
 
-<img src="img/12_04.png" alt="実行結果" width="600">
+<img src="img/14_04.png" alt="実行結果" width="600">
 
 <br>
 
@@ -544,4 +586,23 @@ public class MenuController {
 </html>
 ```
 
-<br>
+<br><br>
+
+<hr>
+
+### 演習15
+
+次の実行結果となるように以下のプログラムを作成してください。
+
+- LogoutControllerクラス（パッケージ：com.example.springexercise.controller）
+- menu.html（配置場所：src/main/resources/templates）
+
+#### 実行結果
+
+<img src="img/15_01.png" alt="実行結果" width="600">
+
+メニュー画面のログアウトリンクをクリックすることで、セッションを破棄し、ログイン画面（login.html）に遷移します。
+
+<br><br>
+
+<hr>
