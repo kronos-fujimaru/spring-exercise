@@ -113,7 +113,7 @@ http://localhost:8080/rest-controller/ex5?id=101
 
 <img src="img/05_02.png" alt="実行結果" width="600">
 
-<br><br>
+<br>
 
 **Employee.java**
 
@@ -138,9 +138,9 @@ public class Employee {
 }
 ```
 
-**ExRestController.java**
+<br>
 
-以下のリストが用意されているものとします。
+**ExRestController.java**　※追加するメソッドに以下のリストが用意されているものとします。
 
 ```java
 List<Employee> employees = Arrays.asList(new Employee(101, "Bob", "Male", 45),
