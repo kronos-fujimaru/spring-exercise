@@ -601,7 +601,7 @@ public class MenuController {
 
 <img src="img/15_01.png" alt="実行結果" width="600">
 
-メニュー画面のログアウトリンクをクリックすることで、セッションを破棄し、ログイン画面（login.html）に遷移します。
+メニュー画面のログアウトリンクをクリックすることで、セッションを破棄し、LoginControllerクラスへリダイレクトします。
 
 <br><br>
 
