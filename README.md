@@ -2,7 +2,18 @@
 
 Eclipse上で Spring Starterプロジェクト「spring-exercise」を作成して課題に取り組んでください。
 
-<br>
+<a href="https://start.spring.io/">Spring Initializr</a>でプロジェクトの雛形を作成、ダウンロードし、Eclipseにインポートします。雛形の作成時には、以下の依存関係（Dependencies）を追加します。
+
+- Spring Web
+- Spring Boot DevTools
+- Lombok
+- Thymeleaf
+
+<img src="img/00_01.png" alt="Spring Initializr">
+
+<br><br>
+
+<hr>
 
 ### 演習1
 
