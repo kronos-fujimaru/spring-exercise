@@ -346,6 +346,17 @@ AOPを活用し、com.example.springexercise.controllerパッケージ配下の�
 start:String com.example.springexercise.controller.ExRestController.ex4(String)
 ```
 
+<br>
+
+**pom.xml**　※AOPの機能を使用するため、以下の依存関係を追記します。
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-aop</artifactId>
+</dependency>
+```
+
 <br><br>
 
 <hr>
@@ -594,6 +605,17 @@ public class MenuController {
     </ul>
 </body>
 </html>
+```
+
+<br>
+
+**pom.xml**　※※バリデーション機能を使用するため、以下の依存関係を追記します。
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-validation</artifactId>
+</dependency>
 ```
 
 <br><br>
