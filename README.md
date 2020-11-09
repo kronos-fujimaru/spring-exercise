@@ -54,6 +54,10 @@ http://localhost:8080/rest-controller/ex2
 
 <img src="img/02_01.png" alt="実行結果" width="600">
 
+<br>
+
+<a href="/ans/02_ans.md">解答例</a>
+
 <br><br>
 
 <hr>
@@ -75,6 +79,10 @@ http://localhost:8080/rest-controller/ex3
 フルーツ名と価格をマップに格納し、マップの内容を表示します。
 
 <img src="img/03_01.png" alt="実行結果" width="600">
+
+<br>
+
+<a href="/ans/03_ans.md">解答例</a>
 
 <br><br>
 
@@ -99,6 +107,10 @@ http://localhost:8080/rest-controller/ex4?message=SpringBoot!!
 <img src="img/04_01.png" alt="実行結果" width="650">
 
 > ヒント：@RequestParamアノテーションでリクエストパラメータを取得できます。
+
+<br>
+
+<a href="/ans/04_ans.md">解答例</a>
 
 <br><br>
 
@@ -167,6 +179,10 @@ List<Employee> employees = Arrays.asList(new Employee(101, "Bob", "Male", 45),
                                          new Employee(108, "Duke", "-", 25));
 ```
 
+<br>
+
+<a href="/ans/05_ans.md">解答例</a>
+
 <br><br>
 
 <hr>
@@ -195,6 +211,10 @@ http://localhost:8080/rest-controller/ex6/101
 <img src="img/06_02.png" alt="実行結果" width="600">
 
 > ヒント：@PathVariableアノテーションでリクエストパラメータを取得できます。
+
+<br>
+
+<a href="/ans/06_ans.md">解答例</a>
 
 <br><br>
 
@@ -254,6 +274,10 @@ http://localhost:8080/controller/ex7/2
 </html>
 ```
 
+<br>
+
+<a href="/ans/07_ans.md">解答例</a>
+
 <br><br>
 
 <hr>
@@ -289,6 +313,10 @@ List<Employee> employees = Arrays.asList(new Employee(101, "Bob", "Male", 45),
                                          new Employee(107, "Eliza", "Female", 23),
                                          new Employee(108, "Duke", "-", 25));
 ```
+
+<br>
+
+<a href="/ans/08_ans.md">解答例</a>
 
 <br><br>
 
@@ -330,6 +358,10 @@ List<Employee> employees = Arrays.asList(new Employee(101, "Bob", "Male", 45),
                                          new Employee(108, "Duke", "-", 25));
 ```
 
+<br>
+
+<a href="/ans/09_ans.md">解答例</a>
+
 <br><br>
 
 <hr>
@@ -361,6 +393,10 @@ start:String com.example.springexercise.controller.ExRestController.ex4(String)
 </dependency>
 ```
 
+<br>
+
+<a href="/ans/10_ans.md">解答例</a>
+
 <br><br>
 
 <hr>
@@ -382,6 +418,10 @@ start:String com.example.springexercise.controller.ExRestController.ex4(String)
 ```
 
 > 引数が1つもないメソッドが実行された時は、ログ出力はしません。
+
+<br>
+
+<a href="/ans/11_ans.md">解答例</a>
 
 <br><br>
 
