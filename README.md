@@ -2,7 +2,7 @@
 
 Eclipse上で Spring Starterプロジェクト「spring-exercise」を作成して課題に取り組んでください。
 
-<a href="https://start.spring.io/">Spring Initializr</a>でプロジェクトの雛形を作成、ダウンロードし、Eclipseにインポートします。雛形の作成時には、以下の依存関係（Dependencies）を追加します。
+<a href="https://start.spring.io/" target="_blank">Spring Initializr</a>でプロジェクトの雛形を作成、ダウンロードし、Eclipseにインポートします。雛形の作成時には、以下の依存関係（Dependencies）を追加します。
 
 - Spring Web
 - Spring Boot DevTools
@@ -27,6 +27,10 @@ Eclipse上で Spring Starterプロジェクト「spring-exercise」を作成し�
 http://localhost:8080/rest-controller/ex1
 
 <img src="img/01_01.png" alt="実行結果" width="600">
+
+<br>
+
+<a href="/ans/01_ans.md">解答例</a>
 
 <br><br>
 
