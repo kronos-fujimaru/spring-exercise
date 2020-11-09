@@ -210,7 +210,7 @@ http://localhost:8080/rest-controller/ex6/101
 
 <img src="img/06_02.png" alt="実行結果" width="600">
 
-> ヒント：@PathVariableアノテーションでリクエストパラメータを取得できます。
+> ヒント：@PathVariableアノテーションでパスパラメータを取得できます。
 
 <br>
 
