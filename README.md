@@ -458,16 +458,6 @@ http://localhost:8080/books
 
 <img src="img/12_02.png" alt="実行結果" width="600">
 
-<br><br>
-
-<hr>
-
-### 演習13
-
-演習10で検索結果が1件もない場合、その旨のメッセージを表示します。
-
-<img src="img/13_01.png" alt="実行結果" width="600">
-
 <br>
 
 **BookServiceImpl.java**　※検索メソッドに以下のリストが用意されているものとします。
@@ -506,6 +496,26 @@ public class Book {
 }
 ```
 
+<br>
+
+<a href="/ans/12_ans.md">解答例</a>
+
+<br><br>
+
+<hr>
+
+### 演習13
+
+演習12で検索結果が1件もない場合、その旨のメッセージを表示します。
+
+<img src="img/13_01.png" alt="実行結果" width="600">
+
+> ヒント：index.htmlのみ修正します。
+
+<br>
+
+<a href="/ans/13_ans.md">解答例</a>
+
 <br><br>
 
 <hr>
@@ -524,9 +534,9 @@ public class Book {
     - ログイン処理を実装します。
     - 一致するユーザ情報を返します。
     - 一致するユーザ情報がない場合はNullを返します。
-- UserFormクラス（パッケージ：com.example.springexercise.form）
+- LoginFormクラス（パッケージ：com.example.springexercise.form）
     - ログイン画面の入力情報を保持します。
-    - ログインIDが未入力の場合、「ユーザIDを入力してください。」と表示します。
+    - ログインIDが未入力の場合、「ログインIDを入力してください。」と表示します。
     - パスワードが未入力の場合、「パスワードを入力してください。」と表示します。
 - login.html（配置場所：src/main/resources/templates）
     - ログイン画面を表示します。
@@ -662,6 +672,10 @@ public class MenuController {
 </dependency>
 ```
 
+<br>
+
+<a href="/ans/14_ans.md">解答例</a>
+
 <br><br>
 
 <hr>
@@ -678,6 +692,10 @@ public class MenuController {
 <img src="img/15_01.png" alt="実行結果" width="600">
 
 メニュー画面のログアウトリンクをクリックすることで、セッションを破棄し、LoginControllerクラスへリダイレクトします。
+
+<br>
+
+<a href="/ans/15_ans.md">解答例</a>
 
 <br><br>
 
